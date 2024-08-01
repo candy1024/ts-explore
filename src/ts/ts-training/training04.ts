@@ -9,7 +9,7 @@ interface Two {
     d: 4;
 }
 
-
+// 类型合并
 type Combine<A extends Record<string, any>, B extends Record<string, any>> = {
     [Key in keyof (A & B)]: Key extends keyof A
     ? A[Key]

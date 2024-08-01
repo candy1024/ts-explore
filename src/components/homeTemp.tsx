@@ -1,5 +1,5 @@
 import { ArrowRightOutlined } from '@ant-design/icons';
-import { Intro } from '../components';
+import Intro from './intro';
 import reactLogo from '../assets/react.svg';
 import viteLogo from '../../public/vite.svg';
 
@@ -14,7 +14,7 @@ function Home() {
                 <img src={reactLogo} className="logo react" alt="React logo" />
                 </a>
             </div>
-            <h1>Vite + React + TS</h1>
+            <h2>TS-explore</h2>
         
             <Intro icon={<ArrowRightOutlined />}/>
         </>

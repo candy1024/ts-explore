@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 
-import Home from "./homeTemp"
+import Home from "../components/homeTemp"
 import ToolsGrid from "../components/toolsGrid";
 
 const router = createBrowserRouter([

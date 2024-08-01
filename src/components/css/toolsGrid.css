@@ -1,0 +1,10 @@
+.content-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card-item {
+    margin-right: 14px;
+    margin-bottom: 10px;
+}

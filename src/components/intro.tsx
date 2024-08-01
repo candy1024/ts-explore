@@ -36,7 +36,7 @@ const Intro: React.FC<BtnProps> = ({icon}: BtnProps) => {
     }
   `;
 
-  const clickHandle = (evt: any): void => {
+  const clickHandle = (): void => {
     location.href += 'tools';
   }
 
